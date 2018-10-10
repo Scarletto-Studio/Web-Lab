@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Guessing Number</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <h1>Guessing Number</h1>
+    <h3>Guessing Number that you think from result.</h3>
+    <div id="howto">
+        <ul>
+            <li>1. Thinking one integer number (1,2,3,4,...) on your head</li>
+            <li>2. Multiply that number with 2</li>
+            <li>3. Plus the result of 2. with 5</li>
+            <li>4. Multiply the result of 3. with 50</li>
+            <li>5. Fill the last result on input box below.</li>
+        </ul>
+    </div>
+    <div id="input">
+        <input type="number" name="result" id="result">
+        <button type="submit" onclick="guessing()">Submit</button>
+    </div>
+    <div>
+      <p id="guess"></p>  
+    </div>
+    <script src="guess.js"></script>
+</body>
+</html>
