@@ -1,0 +1,7 @@
+body {
+    background-image: linear-gradient(to left,red,yellow)
+}
+
+h1 {
+    text-shadow: 0 0 3px #5748ff;
+}
